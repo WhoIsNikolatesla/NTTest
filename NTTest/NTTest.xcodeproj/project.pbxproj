@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C108F4BE1D2556E9002B003A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C108F4BD1D2556E9002B003A /* main.m */; };
-		C108F4C11D2556E9002B003A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C108F4C01D2556E9002B003A /* AppDelegate.m */; };
 		C108F4C91D2556E9002B003A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C108F4C81D2556E9002B003A /* Assets.xcassets */; };
-		C108F4CC1D2556E9002B003A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C108F4CA1D2556E9002B003A /* LaunchScreen.storyboard */; };
 		C108F4D71D2556E9002B003A /* NTTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C108F4D61D2556E9002B003A /* NTTestTests.m */; };
 		C108F4E21D2556E9002B003A /* NTTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C108F4E11D2556E9002B003A /* NTTestUITests.m */; };
 /* End PBXBuildFile section */
@@ -34,12 +31,7 @@
 
 /* Begin PBXFileReference section */
 		C108F4B91D2556E9002B003A /* NTTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C108F4BD1D2556E9002B003A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C108F4BF1D2556E9002B003A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C108F4C01D2556E9002B003A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C108F4C81D2556E9002B003A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C108F4CB1D2556E9002B003A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C108F4CD1D2556E9002B003A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C108F4D21D2556E9002B003A /* NTTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C108F4D61D2556E9002B003A /* NTTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTTestTests.m; sourceTree = "<group>"; };
 		C108F4D81D2556E9002B003A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,11 +88,7 @@
 		C108F4BB1D2556E9002B003A /* NTTest */ = {
 			isa = PBXGroup;
 			children = (
-				C108F4BF1D2556E9002B003A /* AppDelegate.h */,
-				C108F4C01D2556E9002B003A /* AppDelegate.m */,
 				C108F4C81D2556E9002B003A /* Assets.xcassets */,
-				C108F4CA1D2556E9002B003A /* LaunchScreen.storyboard */,
-				C108F4CD1D2556E9002B003A /* Info.plist */,
 				C108F4BC1D2556E9002B003A /* Supporting Files */,
 			);
 			path = NTTest;
@@ -109,7 +97,6 @@
 		C108F4BC1D2556E9002B003A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C108F4BD1D2556E9002B003A /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -235,7 +222,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C108F4CC1D2556E9002B003A /* LaunchScreen.storyboard in Resources */,
 				C108F4C91D2556E9002B003A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,8 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C108F4C11D2556E9002B003A /* AppDelegate.m in Sources */,
-				C108F4BE1D2556E9002B003A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,17 +280,6 @@
 			targetProxy = C108F4DE1D2556E9002B003A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C108F4CA1D2556E9002B003A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C108F4CB1D2556E9002B003A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C108F4E41D2556E9002B003A /* Debug */ = {
@@ -478,6 +451,7 @@
 				C108F4E81D2556E9002B003A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C108F4E91D2556E9002B003A /* Build configuration list for PBXNativeTarget "NTTestTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +460,7 @@
 				C108F4EB1D2556E9002B003A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C108F4EC1D2556E9002B003A /* Build configuration list for PBXNativeTarget "NTTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +469,7 @@
 				C108F4EE1D2556E9002B003A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
