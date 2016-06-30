@@ -10,6 +10,9 @@
 		C108F4C91D2556E9002B003A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C108F4C81D2556E9002B003A /* Assets.xcassets */; };
 		C108F4D71D2556E9002B003A /* NTTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C108F4D61D2556E9002B003A /* NTTestTests.m */; };
 		C108F4E21D2556E9002B003A /* NTTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C108F4E11D2556E9002B003A /* NTTestUITests.m */; };
+		C17E74AF1D255A5E0068CEAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C17E74A91D255A5E0068CEAC /* AppDelegate.m */; };
+		C17E74B01D255A5E0068CEAC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C17E74AA1D255A5E0068CEAC /* Info.plist */; };
+		C17E74B11D255A5E0068CEAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C17E74AB1D255A5E0068CEAC /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,10 @@
 		C108F4DD1D2556E9002B003A /* NTTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C108F4E11D2556E9002B003A /* NTTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTTestUITests.m; sourceTree = "<group>"; };
 		C108F4E31D2556E9002B003A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C17E74A81D255A5E0068CEAC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C17E74A91D255A5E0068CEAC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C17E74AA1D255A5E0068CEAC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C17E74AB1D255A5E0068CEAC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +95,7 @@
 		C108F4BB1D2556E9002B003A /* NTTest */ = {
 			isa = PBXGroup;
 			children = (
+				C17E74941D255A5E0068CEAC /* Classes */,
 				C108F4C81D2556E9002B003A /* Assets.xcassets */,
 				C108F4BC1D2556E9002B003A /* Supporting Files */,
 			);
@@ -117,6 +125,193 @@
 				C108F4E31D2556E9002B003A /* Info.plist */,
 			);
 			path = NTTestUITests;
+			sourceTree = "<group>";
+		};
+		C17E74941D255A5E0068CEAC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C17E74951D255A5E0068CEAC /* Essence */,
+				C17E74991D255A5E0068CEAC /* FriendTrends */,
+				C17E749D1D255A5E0068CEAC /* Main */,
+				C17E74A11D255A5E0068CEAC /* Me */,
+				C17E74A51D255A5E0068CEAC /* New */,
+				C17E74A71D255A5E0068CEAC /* Others */,
+				C17E74AC1D255A5E0068CEAC /* Publish */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C17E74951D255A5E0068CEAC /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				C17E74961D255A5E0068CEAC /* Controller */,
+				C17E74971D255A5E0068CEAC /* Model */,
+				C17E74981D255A5E0068CEAC /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		C17E74961D255A5E0068CEAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C17E74971D255A5E0068CEAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C17E74981D255A5E0068CEAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C17E74991D255A5E0068CEAC /* FriendTrends */ = {
+			isa = PBXGroup;
+			children = (
+				C17E749A1D255A5E0068CEAC /* Controller */,
+				C17E749B1D255A5E0068CEAC /* Model */,
+				C17E749C1D255A5E0068CEAC /* View */,
+			);
+			path = FriendTrends;
+			sourceTree = "<group>";
+		};
+		C17E749A1D255A5E0068CEAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C17E749B1D255A5E0068CEAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C17E749C1D255A5E0068CEAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C17E749D1D255A5E0068CEAC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C17E749E1D255A5E0068CEAC /* Category */,
+				C17E749F1D255A5E0068CEAC /* Controller */,
+				C17E74A01D255A5E0068CEAC /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C17E749E1D255A5E0068CEAC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C17E749F1D255A5E0068CEAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C17E74A01D255A5E0068CEAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C17E74A11D255A5E0068CEAC /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				C17E74A21D255A5E0068CEAC /* Controller */,
+				C17E74A31D255A5E0068CEAC /* Model */,
+				C17E74A41D255A5E0068CEAC /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		C17E74A21D255A5E0068CEAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C17E74A31D255A5E0068CEAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C17E74A41D255A5E0068CEAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C17E74A51D255A5E0068CEAC /* New */ = {
+			isa = PBXGroup;
+			children = (
+				C17E74A61D255A5E0068CEAC /* Controller */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		C17E74A61D255A5E0068CEAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C17E74A71D255A5E0068CEAC /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C17E74A81D255A5E0068CEAC /* AppDelegate.h */,
+				C17E74A91D255A5E0068CEAC /* AppDelegate.m */,
+				C17E74AA1D255A5E0068CEAC /* Info.plist */,
+				C17E74AB1D255A5E0068CEAC /* main.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C17E74AC1D255A5E0068CEAC /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				C17E74AD1D255A5E0068CEAC /* Controller */,
+				C17E74AE1D255A5E0068CEAC /* View */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		C17E74AD1D255A5E0068CEAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C17E74AE1D255A5E0068CEAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +417,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C17E74B01D255A5E0068CEAC /* Info.plist in Resources */,
 				C108F4C91D2556E9002B003A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +443,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C17E74B11D255A5E0068CEAC /* main.m in Sources */,
+				C17E74AF1D255A5E0068CEAC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
