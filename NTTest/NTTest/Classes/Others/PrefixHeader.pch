@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  NTTest
+//
+//  Created by chenzhaoliu on 16/7/1.
+//  Copyright © 2016年 chenzhaoliu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+GetViewFrame.h"
+
+#endif

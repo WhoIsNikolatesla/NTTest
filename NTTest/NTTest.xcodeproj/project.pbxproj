@@ -13,6 +13,15 @@
 		C17E74AF1D255A5E0068CEAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C17E74A91D255A5E0068CEAC /* AppDelegate.m */; };
 		C17E74B01D255A5E0068CEAC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C17E74AA1D255A5E0068CEAC /* Info.plist */; };
 		C17E74B11D255A5E0068CEAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C17E74AB1D255A5E0068CEAC /* main.m */; };
+		C17E74B41D255C670068CEAC /* NTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17E74B31D255C670068CEAC /* NTTabBarController.m */; };
+		C17E74B71D2567B70068CEAC /* NTEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17E74B61D2567B70068CEAC /* NTEssenceViewController.m */; };
+		C17E74BA1D2567E40068CEAC /* NTFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17E74B91D2567E40068CEAC /* NTFriendTrendsViewController.m */; };
+		C17E74C01D2568AC0068CEAC /* NTNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17E74BF1D2568AC0068CEAC /* NTNewViewController.m */; };
+		C17E74C31D256BDD0068CEAC /* NTNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17E74C21D256BDD0068CEAC /* NTNavigationViewController.m */; };
+		C1EB786B1D25FA9000730E97 /* NTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EB786A1D25FA9000730E97 /* NTTabBar.m */; };
+		C1EB786E1D2606D600730E97 /* UIView+GetViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EB786D1D2606D600730E97 /* UIView+GetViewFrame.m */; };
+		C1EB7BDE1D26504D00730E97 /* NTMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EB7BDD1D26504D00730E97 /* NTMeController.m */; };
+		C1EB7BE11D266A6A00730E97 /* NTTopicController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EB7BE01D266A6A00730E97 /* NTTopicController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +52,27 @@
 		C108F4E31D2556E9002B003A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C17E74A81D255A5E0068CEAC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C17E74A91D255A5E0068CEAC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C17E74AA1D255A5E0068CEAC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C17E74AA1D255A5E0068CEAC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Classes/Others/Info.plist; sourceTree = "<group>"; };
 		C17E74AB1D255A5E0068CEAC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C17E74B21D255C670068CEAC /* NTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTTabBarController.h; sourceTree = "<group>"; };
+		C17E74B31D255C670068CEAC /* NTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTTabBarController.m; sourceTree = "<group>"; };
+		C17E74B51D2567B70068CEAC /* NTEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTEssenceViewController.h; sourceTree = "<group>"; };
+		C17E74B61D2567B70068CEAC /* NTEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTEssenceViewController.m; sourceTree = "<group>"; };
+		C17E74B81D2567E40068CEAC /* NTFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTFriendTrendsViewController.h; sourceTree = "<group>"; };
+		C17E74B91D2567E40068CEAC /* NTFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTFriendTrendsViewController.m; sourceTree = "<group>"; };
+		C17E74BE1D2568AC0068CEAC /* NTNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTNewViewController.h; sourceTree = "<group>"; };
+		C17E74BF1D2568AC0068CEAC /* NTNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTNewViewController.m; sourceTree = "<group>"; };
+		C17E74C11D256BDD0068CEAC /* NTNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTNavigationViewController.h; sourceTree = "<group>"; };
+		C17E74C21D256BDD0068CEAC /* NTNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTNavigationViewController.m; sourceTree = "<group>"; };
+		C1EB78691D25FA9000730E97 /* NTTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTTabBar.h; sourceTree = "<group>"; };
+		C1EB786A1D25FA9000730E97 /* NTTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTTabBar.m; sourceTree = "<group>"; };
+		C1EB786C1D2606D600730E97 /* UIView+GetViewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GetViewFrame.h"; sourceTree = "<group>"; };
+		C1EB786D1D2606D600730E97 /* UIView+GetViewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GetViewFrame.m"; sourceTree = "<group>"; };
+		C1EB786F1D26078600730E97 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C1EB7BDC1D26504D00730E97 /* NTMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTMeController.h; sourceTree = "<group>"; };
+		C1EB7BDD1D26504D00730E97 /* NTMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTMeController.m; sourceTree = "<group>"; };
+		C1EB7BDF1D266A6A00730E97 /* NTTopicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTTopicController.h; sourceTree = "<group>"; };
+		C1EB7BE01D266A6A00730E97 /* NTTopicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTTopicController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				C17E74941D255A5E0068CEAC /* Classes */,
-				C108F4C81D2556E9002B003A /* Assets.xcassets */,
 				C108F4BC1D2556E9002B003A /* Supporting Files */,
 			);
 			path = NTTest;
@@ -105,6 +132,8 @@
 		C108F4BC1D2556E9002B003A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C17E74AA1D255A5E0068CEAC /* Info.plist */,
+				C108F4C81D2556E9002B003A /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -130,13 +159,13 @@
 		C17E74941D255A5E0068CEAC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C17E749D1D255A5E0068CEAC /* Main */,
 				C17E74951D255A5E0068CEAC /* Essence */,
 				C17E74991D255A5E0068CEAC /* FriendTrends */,
-				C17E749D1D255A5E0068CEAC /* Main */,
+				C17E74AC1D255A5E0068CEAC /* Publish */,
 				C17E74A11D255A5E0068CEAC /* Me */,
 				C17E74A51D255A5E0068CEAC /* New */,
 				C17E74A71D255A5E0068CEAC /* Others */,
-				C17E74AC1D255A5E0068CEAC /* Publish */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -154,6 +183,10 @@
 		C17E74961D255A5E0068CEAC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C17E74B51D2567B70068CEAC /* NTEssenceViewController.h */,
+				C17E74B61D2567B70068CEAC /* NTEssenceViewController.m */,
+				C1EB7BDF1D266A6A00730E97 /* NTTopicController.h */,
+				C1EB7BE01D266A6A00730E97 /* NTTopicController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -185,6 +218,8 @@
 		C17E749A1D255A5E0068CEAC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C17E74B81D2567E40068CEAC /* NTFriendTrendsViewController.h */,
+				C17E74B91D2567E40068CEAC /* NTFriendTrendsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -216,6 +251,8 @@
 		C17E749E1D255A5E0068CEAC /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				C1EB786C1D2606D600730E97 /* UIView+GetViewFrame.h */,
+				C1EB786D1D2606D600730E97 /* UIView+GetViewFrame.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -223,6 +260,10 @@
 		C17E749F1D255A5E0068CEAC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C17E74B21D255C670068CEAC /* NTTabBarController.h */,
+				C17E74B31D255C670068CEAC /* NTTabBarController.m */,
+				C17E74C11D256BDD0068CEAC /* NTNavigationViewController.h */,
+				C17E74C21D256BDD0068CEAC /* NTNavigationViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -230,6 +271,8 @@
 		C17E74A01D255A5E0068CEAC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C1EB78691D25FA9000730E97 /* NTTabBar.h */,
+				C1EB786A1D25FA9000730E97 /* NTTabBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -247,6 +290,8 @@
 		C17E74A21D255A5E0068CEAC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C1EB7BDC1D26504D00730E97 /* NTMeController.h */,
+				C1EB7BDD1D26504D00730E97 /* NTMeController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -276,6 +321,8 @@
 		C17E74A61D255A5E0068CEAC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C17E74BE1D2568AC0068CEAC /* NTNewViewController.h */,
+				C17E74BF1D2568AC0068CEAC /* NTNewViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -285,8 +332,8 @@
 			children = (
 				C17E74A81D255A5E0068CEAC /* AppDelegate.h */,
 				C17E74A91D255A5E0068CEAC /* AppDelegate.m */,
-				C17E74AA1D255A5E0068CEAC /* Info.plist */,
 				C17E74AB1D255A5E0068CEAC /* main.m */,
+				C1EB786F1D26078600730E97 /* PrefixHeader.pch */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -443,8 +490,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1EB786E1D2606D600730E97 /* UIView+GetViewFrame.m in Sources */,
+				C17E74C31D256BDD0068CEAC /* NTNavigationViewController.m in Sources */,
+				C17E74B41D255C670068CEAC /* NTTabBarController.m in Sources */,
 				C17E74B11D255A5E0068CEAC /* main.m in Sources */,
 				C17E74AF1D255A5E0068CEAC /* AppDelegate.m in Sources */,
+				C1EB7BDE1D26504D00730E97 /* NTMeController.m in Sources */,
+				C1EB7BE11D266A6A00730E97 /* NTTopicController.m in Sources */,
+				C17E74B71D2567B70068CEAC /* NTEssenceViewController.m in Sources */,
+				C17E74BA1D2567E40068CEAC /* NTFriendTrendsViewController.m in Sources */,
+				C1EB786B1D25FA9000730E97 /* NTTabBar.m in Sources */,
+				C17E74C01D2568AC0068CEAC /* NTNewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,7 +620,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = NTTest/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/chenzhaoliu/test/NTTest/NTTest/NTTest/Classes/Others/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/NTTest/Classes/Others/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NT.NTTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -575,7 +633,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = NTTest/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/chenzhaoliu/test/NTTest/NTTest/NTTest/Classes/Others/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/NTTest/Classes/Others/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NT.NTTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
